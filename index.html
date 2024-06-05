@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sani Dépanne</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>    
+<body>
+    <header aria-labelledby="main-navigation">
+        <div class="container">
+            <nav id="main-navigation" aria-label="Navigation principale">
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main id="home" aria-labelledby="home-heading">
+        <section>
+            <div class="container">
+                <h1 id="home-heading">Bienvenue sur Mon Site Web</h1>
+                <p>Introduction et informations importantes.</p>
+            </div>
+        </section>
+        
+        <section id="about" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading">À propos de Nous</h2>
+                <p>Informations détaillées sur votre entreprise ou votre mission.</p>
+            </div>
+        </section>
+        
+        <section id="services" aria-labelledby="services-heading">
+            <div class="container">
+                <h2 id="services-heading">Nos Services</h2>
+                <p>Description des services offerts.</p>
+            </div>
+        </section>
+        
+        <section id="contact" aria-labelledby="contact-heading">
+            <div class="container">
+                <h2 id="contact-heading">Contactez-nous</h2>
+                <form action="/submit-form" method="post">
+                    <label for="name">Nom:</label>
+                    <input type="text" id="name" name="name" required aria-required="true">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required aria-required="true"></textarea>
+                    
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer aria-labelledby="footer-heading">
+        <div class="container">
+            <h2 id="footer-heading" class="visually-hidden">Footer</h2>
+            <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+            <nav aria-label="Navigation secondaire">
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
