@@ -1,0 +1,136 @@
+<section
+  id="contact"
+  class="sd-contact sd-section position-relative py-3 py-md-5 overflow-hidden"
+>
+  <div class="container my-5">
+    <div class="row p-4 align-items-center rounded-3 shadow-lg bg-white">
+      <div class="col-lg-4 p-3 p-lg-5 pt-lg-3">
+        {% include title.html under="" subtitle="Contact" title="Contactez-nous"
+        %}
+
+        <div class="sd-notes mt-3">
+          Les expériences de nos clients sur la qualité de nos interventions en
+          plomberie
+        </div>
+      </div>
+      <div class="col-lg-7 offset-lg-1 p-0 overflow-hidden">
+        <form
+          class="p-4 p-md-5"
+          action="https://formspree.io/f/myzyaeny"
+          method="POST"
+        >
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <div class="form-floating">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingNom"
+                  placeholder="Nom"
+                  required
+                  name="Nom"
+                />
+                <label for="floatingNom">Nom</label>
+                <div class="invalid-feedback">
+                  Veuillez renseigner votre nom.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <div class="form-floating">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingPrenom"
+                  placeholder="Prénom"
+                  required
+                  name="Prénom"
+                />
+                <label for="floatingPrenom">Prénom</label>
+                <div class="invalid-feedback">
+                  Veuillez renseigner votre prénom.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <div class="form-floating">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingEmail"
+                  placeholder="Adresse e-mail"
+                  required
+                  name="Adresse e-mail"
+                />
+                <label for="floatingEmail">Adresse e-mail</label>
+                <div class="invalid-feedback">
+                  Veuillez renseigner une adresse e-mail valide.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <div class="form-floating">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="floatingPhone"
+                  placeholder="Numéro de téléphone"
+                  required
+                  name="Numéro de téléphone"
+                />
+                <label for="floatingPhone">Numéro de téléphone</label>
+                <div class="invalid-feedback">
+                  Veuillez renseigner un numéro de téléphone valide.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <div class="form-floating">
+              <input
+                type="text"
+                class="form-control"
+                id="floatingSujet"
+                placeholder="Sujet"
+                required
+                name="Sujet"
+              />
+              <label for="floatingSujet">Sujet</label>
+              <div class="invalid-feedback">Veuillez renseigner le sujet.</div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                id="floatingMessage"
+                placeholder="Message"
+                style="height: 150px"
+                required
+                name="Message"
+              ></textarea>
+              <label for="floatingMessage">Message</label>
+              <div class="invalid-feedback">Veuillez écrire votre message.</div>
+            </div>
+          </div>
+
+          <button class="w-100 btn btn-primary" type="submit">Envoyer</button>
+          <hr class="my-4" />
+          <small class="text-body-secondary">
+            En cliquant sur "Envoyer", vous acceptez les
+            <a href="https://formspree.io/legal/terms-of-service/"
+              >termes d'utilisation</a
+            >.
+          </small>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
