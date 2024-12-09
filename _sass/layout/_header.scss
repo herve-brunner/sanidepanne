@@ -1,0 +1,13 @@
+.sd-header {
+  .container {
+    height: 100px;
+  }
+
+  &__logo {
+    max-width: calc(100% - 80px);
+
+    img {
+      max-width: 100%;
+    }
+  }
+}

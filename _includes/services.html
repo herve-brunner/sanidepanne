@@ -1,0 +1,44 @@
+<section
+  class="sd-services sd-section position-relative py-3 py-md-5 bg-body-tertiary overflow-hidden"
+  id="services"
+>
+  <div class="container text-left my-5">
+    <div class="row">
+      <div class="col-md-5 col-lg-6">
+        {% include title.html under="Services" subtitle="Nos services"
+        title="Des solutions efficaces<br />en chauffage et plomberie." %}
+      </div>
+      <div class="col-md-6 col-lg-6 d-none d-sm-block">
+        <div class="sd-notes">
+          Nous garantissons des services de haute qualité, alliant expertise,
+          réactivité et solutions sur mesure pour répondre à vos besoins en
+          chauffage, plomberie et rénovation.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row">
+      {% include service.html image="/images/service-1.jpg" title="Dépannage
+      plomberie sanitaire" description="Intervention rapide pour résoudre
+      efficacement tous vos problèmes sanitaires.."
+      icon="/images/icons/repairing.svg" %} {% include service.html
+      image="/images/service-2.jpg" title="Chauffage" description="Installation,
+      réparation et optimisation des systèmes de chauffage pour un confort
+      durable." icon="/images/icons/heater.svg" %} {% include service.html
+      image="/images/service-3.jpg" title="Climatisation"
+      description="Installation et entretien des systèmes de climatisation pour
+      une température idéale en toute saison."
+      icon="/images/icons/air-conditioner.svg" %} {% include service.html
+      image="/images/service-4.jpg" title="Entretien et mise en service"
+      description="Entretien et mise en service des chaudières, installations
+      sanitaires et systèmes de chauffage." icon="/images/icons/boiler.svg" %}
+      {% include service.html image="/images/service-5.jpg" title="Rénovation de
+      salle de bain" description="Transformation des salles de bain en espaces
+      modernes et fonctionnels." icon="/images/icons/public-toilet.svg" %} {%
+      include service.html image="/images/service-6.jpg" title="Réalisation de
+      projet" description="Accompagnement personnalisé dans la conception et la
+      mise en œuvre de vos projets." icon="/images/icons/blueprint.svg" %}
+    </div>
+  </div>
+</section>
