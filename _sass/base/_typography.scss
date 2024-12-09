@@ -5,3 +5,15 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+a {
+  --bs-link-color: var(--tertiary-blue);
+
+  color: var(--bs-link-color);
+
+  &:hover {
+    --bs-link-hover-color: var(--secondary-blue);
+
+    color: var(--bs-link-hover-color);
+  }
+}
