@@ -1,0 +1,20 @@
+<div class="sd-service col-md-6 col-lg-4">
+  <div class="card">
+    <img src="{{ include.image }}" class="card-img" alt="{{ include.title }}" />
+    <div class="card-content d-flex p-3">
+      <div class="card-icon-container">
+        <div class="card-icon me-3">
+          <img
+            src="{{ include.icon }}"
+            class="card-icon-img"
+            alt="{{ include.title }}"
+          />
+        </div>
+      </div>
+      <h5 class="card-title mb-0">{{ include.title }}</h5>
+      {% comment %}
+      <p class="card-text">{{ include.description }}</p>
+      {% endcomment %}
+    </div>
+  </div>
+</div>

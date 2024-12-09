@@ -1,0 +1,10 @@
+.btn {
+  --bs-btn-bg: var(--primary-blue);
+  --bs-btn-border-color: var(--bs-btn-bg);
+  --bs-btn-line-height: 38px;
+  --bs-border-radius: 0;
+  --bs-btn-hover-bg: var(--tertiary-blue);
+  --bs-btn-hover-border-color: var(--bs-btn-hover-bg);
+
+  text-transform: uppercase;
+}
