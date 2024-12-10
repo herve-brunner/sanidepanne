@@ -5,6 +5,8 @@
   --primary-blue: #51acfb;
   --secondary-blue: #0c4c93;
   --tertiary-blue: #1e60aa;
+  --primary-red: #ff4917;
+  --secondary-red: #a62f0f;
 }
 
 body {
@@ -18,6 +20,7 @@ html {
 a {
   --bs-link-color: var(--tertiary-blue);
   color: var(--bs-link-color);
+  text-decoration: none;
 }
 a:hover {
   --bs-link-hover-color: var(--secondary-blue);
@@ -404,6 +407,17 @@ a:hover {
 .sd-contact {
   background: url(/images/contact.jpg) center center;
   background-size: cover;
+}
+.sd-contact__phone {
+  font-weight: 800;
+  color: var(--primary-red);
+  font-size: 25px;
+  line-height: 1.1;
+  margin-top: 5px;
+  white-space: nowrap;
+}
+.sd-contact__phone:hover {
+  color: var(--secondary-red);
 }
 
 .splide__arrow--prev {

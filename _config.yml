@@ -1,3 +1,6 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.sanidepanne.fr" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "Sani Dépanne" # the name of your site, e.g. ACME Corp.
+
+global_variables:
+  formspree_url: "https://formspree.io/f/mdkovwga"

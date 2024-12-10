@@ -1,4 +1,17 @@
 .sd-contact {
   background: url(/images/contact.jpg) center center;
   background-size: cover;
+
+  &__phone {
+    font-weight: 800;
+    color: var(--primary-red);
+    font-size: 25px;
+    line-height: 1.1;
+    margin-top: 5px;
+    white-space: nowrap;
+
+    &:hover {
+      color: var(--secondary-red);
+    }
+  }
 }
