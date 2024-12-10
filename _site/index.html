@@ -28,6 +28,20 @@
       href="/images/favicon/apple-touch-icon.png"
     />
     <link rel="manifest" href="/images/favicon/site.webmanifest" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-NZBSLQM7XZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-NZBSLQM7XZ");
+    </script>
   </head>
   <body>
     <!-- prettier-ignore -->
@@ -482,22 +496,43 @@
 
         <ul class="list-unstyled">
           <li class="mb-2">
-            <strong>Adresse :</strong> 18 rue des Saules, 68300, Saint-Louis
-          </li>
-          <li class="mb-2">
             <strong>Téléphone :</strong>
-            <a href="tel:+33769335025">07 69 33 50 25</a>
+            <a class="sd-contact__phone" href="tel:+33769335025"
+              >07 69 33 50 25</a
+            >
           </li>
           <li class="mb-2">
             <strong>Email :</strong>
             <a href="mailto:contact@sanidepanne.fr">contact@sanidepanne.fr</a>
           </li>
+          <li class="mb-2">
+            <strong>Adresse :</strong> 18 rue des Saules, 68300, Saint-Louis
+          </li>
+          <li class="mb-2">
+            <strong>Horaires :</strong>
+            <table class="table table-borderless">
+              <tbody>
+                <tr>
+                  <td class="fw-medium p-0">Lundi – Vendredi :</td>
+                  <td class="p-0">08:00 – 18:00</td>
+                </tr>
+                <tr>
+                  <td class="fw-medium p-0">Samedi :</td>
+                  <td class="p-0">08:00 – 12:00</td>
+                </tr>
+                <tr>
+                  <td class="fw-medium p-0">Dimanche :</td>
+                  <td class="p-0">Fermé</td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
         </ul>
       </div>
       <div class="col-lg-7 p-0 overflow-hidden">
         <form
-          class="p-0 p-md-5"
-          action="https://formspree.io/f/myzyaeny"
+          class="p-0 p-md-3 p-lg-5"
+          action="https://formspree.io/f/mdkovwga"
           method="POST"
         >
           <div class="row">
