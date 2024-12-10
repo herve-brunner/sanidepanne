@@ -1,0 +1,26 @@
+name: Deploy _site to Hostinger
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: Deploy to FTP
+    runs-on: ubuntu-latest
+
+    steps:
+      # Étape 1 : Checkout le code
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      # Étape 2 : Déployer via FTP
+      - name: Upload to FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: _site/ # Dossier contenant les fichiers statiques
+          server-dir: /public_html/ # Chemin où vos fichiers seront déployés sur Hostinger

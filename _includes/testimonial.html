@@ -1,14 +1,20 @@
 <div class="sd-testimonial border m-2 rounded p-3">
-  <div>
+  <div class="mb-3">
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
   </div>
-  <p>
-    Entreprise très réactive et travail soignée. L installateur qui es intervenu
-    chez nous a fait preuve d un grand professionnalisme et nous a apporter bcp
-    de conseil
-  </p>
+  <p class="sd-testimonial__text">{{ include.text }}</p>
+  <div class="sd-testimonial__customer d-flex align-items-center">
+    <img
+      src="{{ include.image }}"
+      width="35"
+      height="35"
+      class="me-2"
+      alt="{{ include.name }}"
+    />
+    <b class="sd-testimonial__customer__name">{{ include.name }}</b>
+  </div>
 </div>

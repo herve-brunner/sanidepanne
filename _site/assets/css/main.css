@@ -15,6 +15,15 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  --bs-link-color: var(--tertiary-blue);
+  color: var(--bs-link-color);
+}
+a:hover {
+  --bs-link-hover-color: var(--secondary-blue);
+  color: var(--bs-link-hover-color);
+}
+
 .btn {
   --bs-btn-bg: var(--primary-blue);
   --bs-btn-border-color: var(--bs-btn-bg);
@@ -22,6 +31,8 @@ html {
   --bs-border-radius: 0;
   --bs-btn-hover-bg: var(--tertiary-blue);
   --bs-btn-hover-border-color: var(--bs-btn-hover-bg);
+  --bs-btn-active-bg: var(--bs-btn-hover-bg);
+  --bs-btn-active-border-color: var(--bs-btn-hover-bg);
   text-transform: uppercase;
 }
 
@@ -291,6 +302,18 @@ html {
   background: url(/images/icons/quote.svg) no-repeat bottom right 10px;
   background-size: 60px auto;
 }
+.sd-testimonial__text {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  height: 7.5em;
+  line-height: 1.5;
+  font-size: 14px;
+}
+.sd-testimonial__customer__name {
+  font-size: 14px;
+}
 
 .sd-header .container {
   height: 100px;
@@ -337,6 +360,19 @@ html {
   scroll-margin-top: 100px;
 }
 
+.sd-footer .nav-link {
+  font-size: 16px;
+}
+@media (max-width: 992px) {
+  .sd-footer .nav-link {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+.sd-footer .nav-link:hover {
+  text-decoration: underline;
+}
+
 .sd-banner {
   background: url(/images/banner.jpg) no-repeat center center;
   background-size: cover;
@@ -368,6 +404,22 @@ html {
 .sd-contact {
   background: url(/images/contact.jpg) center center;
   background-size: cover;
+}
+
+.splide__arrow--prev {
+  left: -1rem;
+}
+
+.splide__arrow--next {
+  right: -1rem;
+}
+
+.splide__arrow {
+  background: transparent;
+}
+
+.splide__pagination {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */

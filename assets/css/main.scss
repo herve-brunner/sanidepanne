@@ -9,7 +9,7 @@
 @import "base/import";
 @import "base/typography";
 
-// // Import component styles
+// Import component styles
 @import "components/button";
 @import "components/service";
 @import "components/carousel";
@@ -17,12 +17,14 @@
 @import "components/notes";
 @import "components/testimonial";
 
-// // Import layout styles
+// Import layout styles
 @import "layout/header";
 @import "layout/navigation";
 @import "layout/general";
+@import "layout/footer";
 
-// // Import block styles
+// Import block styles
 @import "blocks/banner";
 @import "blocks/company";
 @import "blocks/contact";
+@import "blocks/testimonials";
