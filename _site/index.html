@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
-    <title>Sani Dépanne - </title>
+    <title>Sani Dépanne</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -30,6 +30,7 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest" />
   </head>
   <body>
+    <!-- prettier-ignore -->
     <header class="sd-header sticky-top bg-white">
   <div
     class="container d-flex align-items-center flex-wrap justify-content-center"
@@ -67,11 +68,12 @@
 
   </div>
 </header>
- <section
-  class="sd-banner sd-section position-relative text-center bg-dark"
+ 
+    <section
+  class="sd-banner sd-section position-relative text-center bg-dark py-5"
   id="accueil"
 >
-  <div class="sd-banner__content col-md-8 col-xl-6 p-lg-5 mx-auto my-5">
+  <div class="sd-banner__content col-md-8 col-xl-6 p-3 p-lg-5 mx-auto">
     <h1 class="display-5 fw-semibold text-white">
       Votre solution rapide et fiable pour tous vos dépannages sanitaires
     </h1>
@@ -83,7 +85,8 @@
     </div>
   </div>
 </section>
- <section class="sd-services sd-section" id="services">
+ 
+    <section class="sd-services sd-section" id="services">
   <div class="position-relative py-3 py-md-5 bg-body-tertiary overflow-hidden">
     <div class="container text-left my-5">
       <div class="row">
@@ -227,19 +230,20 @@
     </div>
   </div>
 </section>
- <section id="entreprise" class="sd-company sd-section">
+ 
+    <section id="entreprise" class="sd-company sd-section">
   <div class="position-relative py-3 py-md-5 overflow-hidden">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <img
             src="/images/company.jpg"
             class="sd-company__image"
             alt="L'entreprise"
           />
         </div>
-        <div class="col-sm-6">
-          <div class="mb-4">
+        <div class="col-md-6">
+          <div class="mb-4 pt-5 pt-md-0">
             <div class="blocktitle text-left blocktitle__nomargin">
   <div class="blocktitle__under">L'entreprise</div>
   <div class="blocktitle__subtitle">L'entreprise</div>
@@ -272,13 +276,14 @@
     </div>
   </div>
 </section>
- <section
+ 
+    <section
   class="sd-services sd-section position-relative py-3 py-md-5 bg-body-tertiary"
   id="temoignages"
 >
-  <div class="container container__fluid-xl text-left my-5">
+  <div class="container container__fluid-xl text-left my-2 mt-3 my-md-5">
     <div class="row">
-      <div class="col-md-6 col-xl-3 mb-3 mb-xl-0">
+      <div class="col-md-5 col-xl-3 mb-3 mb-xl-0">
         <div class="blocktitle text-left blocktitle__nomargin">
   <div class="blocktitle__under"></div>
   <div class="blocktitle__subtitle">Témoignages</div>
@@ -291,12 +296,13 @@
           plomberie
         </div>
       </div>
-      <div class="col-md-6 col-xl-9 mb-3 mb-xl-0">
+      <div class="col-md-7 col-xl-9 mb-3 mb-xl-0">
         <div class="row mx-auto my-auto justify-content-center">
           <section class="splide" aria-label="Splide Basic HTML Example">
   <div class="splide__track">
-		<ul class="splide__list">
-			<li class="splide__slide"><div class="sd-testimonial border m-2 rounded p-3">
+    <ul class="splide__list">
+      <li class="splide__slide">
+        <div class="sd-testimonial border m-2 rounded p-3">
   <div class="mb-3">
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
@@ -304,7 +310,9 @@
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
   </div>
-  <p class="sd-testimonial__text">un collègue du Haut Rhin !<br/>un besoin en sanitaire ou plomberie ? une urgence !<br/>un Pro, consciencieux, sérieux.</p>
+  <p class="sd-testimonial__text">un collègue du Haut Rhin !<br />un
+        besoin en sanitaire ou plomberie ? une urgence !<br />un Pro,
+        consciencieux, sérieux.</p>
   <div class="sd-testimonial__customer d-flex align-items-center">
     <img
       src="https://lh3.googleusercontent.com/a/ACg8ocJg8yO6RG3Amih0m9_em67daH4ZMTbdtIqvYdAISey4772BsA=w180-h180-p-rp-mo-br100"
@@ -316,8 +324,10 @@
     <b class="sd-testimonial__customer__name">Frederic Burger</b>
   </div>
 </div>
-</li>
-			<li class="splide__slide"><div class="sd-testimonial border m-2 rounded p-3">
+
+      </li>
+      <li class="splide__slide">
+        <div class="sd-testimonial border m-2 rounded p-3">
   <div class="mb-3">
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
@@ -325,7 +335,10 @@
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
   </div>
-  <p class="sd-testimonial__text">Service impeccable ! Contacté pour une fuite d'eau, ce plombier a réagi rapidement, identifié et réparé le problème avec professionnalisme. Courtois et efficace, je le recommande chaudement pour tout dépannage. Merci !</p>
+  <p class="sd-testimonial__text">Service impeccable ! Contacté pour une
+        fuite d'eau, ce plombier a réagi rapidement, identifié et réparé le
+        problème avec professionnalisme. Courtois et efficace, je le recommande
+        chaudement pour tout dépannage. Merci !</p>
   <div class="sd-testimonial__customer d-flex align-items-center">
     <img
       src="https://lh3.googleusercontent.com/a/ACg8ocLPXNB4twKTqx0MQk-MF3X1o2i6FV6sTatPfNHn8pgMEE0F7zw=w180-h180-p-rp-mo-ba2-br100"
@@ -337,8 +350,10 @@
     <b class="sd-testimonial__customer__name">Hervé Brunner</b>
   </div>
 </div>
-</li>
-			<li class="splide__slide"><div class="sd-testimonial border m-2 rounded p-3">
+
+      </li>
+      <li class="splide__slide">
+        <div class="sd-testimonial border m-2 rounded p-3">
   <div class="mb-3">
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
@@ -346,7 +361,9 @@
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
   </div>
-  <p class="sd-testimonial__text">Artisan très sérieux, je recommande cette entreprise N’hésitez pas à faire appel à Sani dépanne pour vos demande sanitaire.<br/>Merci pour votre aide et votre travail.</p>
+  <p class="sd-testimonial__text">Artisan très sérieux, je recommande
+        cette entreprise N’hésitez pas à faire appel à Sani dépanne pour vos
+        demande sanitaire.<br />Merci pour votre aide et votre travail.</p>
   <div class="sd-testimonial__customer d-flex align-items-center">
     <img
       src="https://lh3.googleusercontent.com/a-/ALV-UjWkElku2oyDE2WiM5mWtXBqoU8gdXWtdOW2o616DwjqlbRRfy4r=w180-h180-p-rp-mo-br100"
@@ -358,8 +375,10 @@
     <b class="sd-testimonial__customer__name">Vanessa Keiflin</b>
   </div>
 </div>
-</li>
-			<li class="splide__slide"><div class="sd-testimonial border m-2 rounded p-3">
+
+      </li>
+      <li class="splide__slide">
+        <div class="sd-testimonial border m-2 rounded p-3">
   <div class="mb-3">
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
@@ -367,7 +386,8 @@
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
   </div>
-  <p class="sd-testimonial__text">Très réactif et professionnel. Je recommande vivement.</p>
+  <p class="sd-testimonial__text">Très réactif et professionnel. Je
+        recommande vivement.</p>
   <div class="sd-testimonial__customer d-flex align-items-center">
     <img
       src="https://lh3.googleusercontent.com/a-/ALV-UjVLW_1h3IVq-hsyHx1nbS-uZ2YrY_p2fHprp44a_xV_mr_8oAQ=w180-h180-p-rp-mo-br100"
@@ -379,8 +399,10 @@
     <b class="sd-testimonial__customer__name">Laetitia Gnassingbé</b>
   </div>
 </div>
-</li>
-			<li class="splide__slide"><div class="sd-testimonial border m-2 rounded p-3">
+
+      </li>
+      <li class="splide__slide">
+        <div class="sd-testimonial border m-2 rounded p-3">
   <div class="mb-3">
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
@@ -388,7 +410,8 @@
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
   </div>
-  <p class="sd-testimonial__text">Professionnel et très courtois ne pas hésiter au cas de besoin, je le recommande vivement.</p>
+  <p class="sd-testimonial__text">Professionnel et très courtois ne pas
+        hésiter au cas de besoin, je le recommande vivement.</p>
   <div class="sd-testimonial__customer d-flex align-items-center">
     <img
       src="https://lh3.googleusercontent.com/a-/ALV-UjWQ4j2jTeoRTV7ky8K2ltbwWcW02WWjauEOom2L2NbjagDZ1A8=w180-h180-p-rp-mo-br100"
@@ -400,8 +423,10 @@
     <b class="sd-testimonial__customer__name">Emir Smailji</b>
   </div>
 </div>
-</li>
-			<li class="splide__slide"><div class="sd-testimonial border m-2 rounded p-3">
+
+      </li>
+      <li class="splide__slide">
+        <div class="sd-testimonial border m-2 rounded p-3">
   <div class="mb-3">
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
@@ -409,7 +434,9 @@
     <img src="/images/icons/star.svg" width="15" />
     <img src="/images/icons/star.svg" width="15" />
   </div>
-  <p class="sd-testimonial__text">Je recommande cette entreprise à 100%<br/>Efficace, rapide, honnête et aimable.<br/>Je referai appel à lui sans aucun doute.<br/>Un grand merci</p>
+  <p class="sd-testimonial__text">Je recommande cette entreprise à
+        100%<br />Efficace, rapide, honnête et aimable.<br />Je referai appel à
+        lui sans aucun doute.<br />Un grand merci</p>
   <div class="sd-testimonial__customer d-flex align-items-center">
     <img
       src="https://lh3.googleusercontent.com/a/ACg8ocK3l0DvamIUiSC2O_AJy31mMAmr--QfNFqa3olfjV5jLjRy8A=w180-h180-p-rp-mo-br100"
@@ -421,22 +448,25 @@
     <b class="sd-testimonial__customer__name">Loïc Manté</b>
   </div>
 </div>
-</li>
-		</ul>
+
+      </li>
+    </ul>
   </div>
-</section
+</section>
+
         </div>
       </div>
     </div>
   </div>
 </section>
- <section
+ 
+    <section
   id="contact"
   class="sd-contact sd-section position-relative py-3 py-md-5"
 >
   <div class="container my-5">
     <div class="row p-4 rounded-3 shadow-lg bg-white">
-      <div class="col-lg-5 p-3 p-lg-5">
+      <div class="col-lg-5 p-0 p-md-3 p-lg-5">
         <div class="blocktitle text-left blocktitle__nomargin">
   <div class="blocktitle__under"></div>
   <div class="blocktitle__subtitle">Contact</div>
@@ -466,7 +496,7 @@
       </div>
       <div class="col-lg-7 p-0 overflow-hidden">
         <form
-          class="p-4 p-md-5"
+          class="p-0 p-md-5"
           action="https://formspree.io/f/myzyaeny"
           method="POST"
         >
@@ -585,7 +615,8 @@
     </div>
   </div>
 </section>
- <footer class="sd-footer py-3 my-4">
+ 
+    <footer class="sd-footer py-3 my-4">
   <ul class="nav justify-content-center border-bottom pb-3 mb-3">
     <li class="nav-item">
       <a href="#" class="nav-link px-2 text-body-secondary">Accueil</a>
