@@ -1,0 +1,10 @@
+# Autorise tous les robots à explorer tout le site
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /search/
+Disallow: /private/
+
+Sitemap: https://www.sanidepanne.fr/sitemap.xml

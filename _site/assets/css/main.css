@@ -22,6 +22,12 @@ a {
     --bs-link-hover-color: var(--secondary-blue);
     color: var(--bs-link-hover-color); }
 
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--secondary-blue); }
+
 .btn {
   --bs-btn-bg: var(--primary-blue);
   --bs-btn-border-color: var(--bs-btn-bg);

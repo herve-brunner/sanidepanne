@@ -4,3 +4,12 @@ title: "Sani Dépanne" # the name of your site, e.g. ACME Corp.
 
 global_variables:
   formspree_url: "https://formspree.io/f/mdkovwga"
+
+collections:
+  pages:
+    output: true
+
+include:
+  - "robots.txt"
+  - "sitemap.xml"
+  - ".htaccess"
